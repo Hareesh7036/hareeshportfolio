@@ -27,6 +27,24 @@ export const projects = [
     github: "https://github.com/Hareesh7036/News-Apllication",
     live: "https://news-apllication.vercel.app/",
   },
+  {
+    title: "Multiplication Test App",
+    description:
+      "Multiplication App is a web application it asks the user some random questions on multiplication and shows user score.",
+    tech: ["HTML", "CSS", "JavaScript"],
+    image: "/images/MultiplicationApp.png",
+    github: "https://github.com/Hareesh7036/Multiplication-App",
+    live: "https://hareesh7036.github.io/Multiplication-App/",
+  },
+  {
+    title: "Digital Clock",
+    description:
+      "Digital Clock is a project which shows current time with hours, minutes, seconds and AM/PM",
+    tech: ["HTML", "CSS"],
+    image: "/images/digitalClock.png",
+    github: "https://github.com/Hareesh7036/Digital-Clock",
+    live: "https://hareesh7036.github.io/Digital-Clock",
+  },
 ];
 
 export const skills = [
