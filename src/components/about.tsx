@@ -14,15 +14,22 @@ function About() {
                 Passionate Frontend Developer
               </h3>
               <p className="text-gray-300 mb-6 leading-relaxed">
-                I'm a Frontend Developer with 1.6 years of experience, currently
-                working at MTAP Technologies on SafeTrax 3.0, an employee
-                transportation platform. I work with JavaScript, TypeScript,
-                React.js, and Next.js to build fast, responsive UIs.
-              </p>
+                {" "}
+                I&apos;m a Full-Stack Developer with around 2 years of
+                experience, currently working at MTAP Technologies on
+                production-grade web applications. I build fast, responsive, and
+                scalable UIs using JavaScript, TypeScript, React.js, and
+                Next.js, with a strong focus on developer experience and
+                performance.{" "}
+              </p>{" "}
               <p className="text-gray-300 mb-6 leading-relaxed">
-                I specialize in Tailwind CSS, manage state using Zustand and
-                React Query, and handle form validation with React Hook Form and
-                Zod. I deploy production apps using GitHub and Vercel.
+                {" "}
+                I specialize in Tailwind CSS and component-driven UI, manage
+                state with Redux Toolkit, Zustand, and React Query, and handle
+                form validation using React Hook Form and Zod. On the backend, I
+                work with Node.js, Express.js/Elysia.js, MongoDB, and Socket.io
+                for real-time features, and I deploy production apps using Git,
+                GitHub, Vercel, Render, and AWS.{" "}
               </p>
               <div className="flex flex-wrap gap-2">
                 <span className="px-3 py-1 bg-purple-500/20 text-purple-300 rounded-full text-sm">

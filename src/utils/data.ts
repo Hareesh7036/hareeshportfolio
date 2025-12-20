@@ -2,6 +2,51 @@ import { Github, Code, Palette, Smartphone, Database } from "lucide-react";
 
 export const projects = [
   {
+    title: "Devgram",
+    description:
+      "A full-stack social platform for developers with secure authentication, protected routes, real-time chat, and a scalable backend. Connect with developers, build your network, and grow your career.",
+    tech: [
+      "Vite",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "DaisyUI",
+      "Redux Toolkit",
+      "Axios",
+      "Express.js",
+      "Node.js",
+      "MongoDB",
+      "Socket.io",
+      "Razorpay",
+      "node-cron",
+      "JWT",
+    ],
+    image: "/images/devgram.jpg",
+    github: "https://github.com/Hareesh7036/devgram",
+    live: "https://devgram-theta.vercel.app/",
+  },
+  {
+    title: "Awesome Beats",
+    description:
+      "A full-featured, responsive music player web app with real-time playback, dynamic search, playlist management, and integrated backend APIs for scalable, maintainable architecture and robust media streaming.",
+    tech: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Node.js",
+      "Elysia.js",
+      "MongoDB",
+      "Mongoose",
+      "Lucide React",
+      "Axios",
+      "Git",
+    ],
+    image: "/images/awesomebeats.webp",
+    github: "https://github.com/Hareesh7036/music-player",
+    live: "https://awesomebeats.vercel.app/",
+  },
+  {
     title: "TaskNest",
     description:
       "A production-ready task management app featuring secure authentication, protected routes, and responsive theming. It includes RESTful APIs, efficient state management with React Query, advanced form handling, and UX enhancements like debouncing.",
@@ -49,7 +94,9 @@ export const projects = [
 
 export const skills = [
   { name: "React", icon: Code, level: 90 },
+  { name: "Redux", icon: Code, level: 90 },
   { name: "Next.js", icon: Code, level: 85 },
+  { name: "Node.js", icon: Code, level: 85 },
   { name: "Elysia.js", icon: Code, level: 85 },
   { name: "TypeScript", icon: Code, level: 85 },
   { name: "JavaScript", icon: Code, level: 95 },
